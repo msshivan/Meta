@@ -1,0 +1,20 @@
+.RevolutionBox {
+  border: 1px solid lightgray;
+  width: 80%;
+  margin: auto;
+  position: relative;
+  padding: 1rem 1rem 1rem 3rem;
+  height: 120px;
+  & p {
+    font-size: 19px;
+  }
+}
+.RevolutionBox_img {
+  background-color: white;
+  padding: 0.5rem;
+  position: absolute;
+  top: -55%;
+  left: -50px;
+  transform: translate(50%, 50%);
+  border-radius: 50%;
+}

@@ -1,0 +1,124 @@
+.BannerContainer {
+  position: relative;
+  margin-top: -10px;
+  z-index: -10;
+  background-image: url("../../../assets/HomeBanner.png");
+  height: 100vh;
+  width: 100vw;
+  background-size: 100vw;
+  background-repeat: no-repeat;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+
+  .shines1 {
+    position: absolute;
+    top: 8%;
+    left: 400px;
+  }
+  .shines2 {
+    position: absolute;
+    top: 10%;
+    left: 40px;
+  }
+  .shines3 {
+    position: absolute;
+    top: 56%;
+    left: 600px;
+  }
+}
+.Banner_layout {
+  width: 100%;
+}
+.virtual-reality-boy {
+  position: absolute;
+  top: 13%;
+  left: 40px;
+  height: 370px;
+}
+.virtual-reality-boy1 {
+  position: absolute;
+  top: 30%;
+  left: 420px;
+  height: 240px;
+}
+.BannerContent {
+  position: relative;
+  padding: 4rem;
+  & h1 {
+    font-family: "Axiforma";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 62px;
+    letter-spacing: 6px;
+    position: absolute;
+    top: 40px;
+    left: 45px;
+    color: #ffffff;
+  }
+  .BannerContent_path {
+    position: absolute;
+    top: 100px;
+    left: 10px;
+  }
+  & h5 {
+    position: absolute;
+    top: 190px;
+    left: 45px;
+    color: #ffffff;
+    word-spacing: 6px;
+    letter-spacing: 2px;
+    font-family: "Axiforma";
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 35px;
+  }
+  .BannerAbout {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    position: absolute;
+    top: 250px;
+    left: 45px;
+  }
+  .AboutContainer {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+
+    & img {
+      height: 40px;
+      width: 40px;
+    }
+    & p {
+      margin-top: 20px;
+      color: white;
+    }
+  }
+  .Banner_actions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    position: absolute;
+    top: 540px;
+    left: 45px;
+    grid-gap: 2rem;
+  }
+  .shines4 {
+    position: absolute;
+    top: 28%;
+    left: 600px;
+  }
+  .shines5 {
+    position: absolute;
+    top: 5%;
+    left: 0px;
+  }
+  .shines6 {
+    position: absolute;
+    top: 64%;
+    left: 550px;
+  }
+}

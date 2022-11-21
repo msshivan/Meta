@@ -1,0 +1,57 @@
+.Opportunity {
+  margin: 2rem 5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+
+  & h1 {
+    font-family: "Axiforma";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 72px;
+    color: #232323;
+
+    & span {
+      color: #1c3892;
+    }
+  }
+
+  & h5 {
+    font-family: "Axiforma";
+    font-style: italic;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 38px;
+    /* or 160% */
+
+    color: rgba(35, 35, 35, 0.75);
+  }
+
+  & h3 {
+    font-family: "Axiforma";
+    font-style: italic;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+
+    color: #1c3892;
+  }
+
+  & p {
+    font-family: "Axiforma";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    /* or 192% */
+
+    color: rgba(35, 35, 35, 0.8);
+  }
+}
+.Opportunity_content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  flex-direction: column;
+}

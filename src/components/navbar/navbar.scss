@@ -1,0 +1,25 @@
+@use "../../styles/mainsource";
+
+nav.navbar {
+  background: mainsource.$color-white;
+  padding: 0rem 5rem;
+}
+nav.nav-height {
+  height: 4.3rem;
+}
+.navlogo {
+  height: 1.5rem;
+}
+a.nav-link {
+  display: flex;
+  align-items: center;
+  margin: 0rem 1.1rem;
+  font-size: 0.875rem;
+  font-weight: mainsource.$font-weight500;
+  color: mainsource.$text-color-grey;
+  cursor: pointer;
+}
+a.signup {
+  font-weight: mainsource.$font-weight700;
+  margin-left: 2rem;
+}

@@ -1,0 +1,96 @@
+.OurHelpPage {
+  position: relative;
+}
+.OurHelp {
+  margin: 2rem 5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  grid-gap: 2rem;
+
+  & h1 {
+    font-family: "Axiforma";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 72px;
+    color: #232323;
+  }
+
+  .OurHelp_head_span {
+    border: 2px solid #0f7bca;
+    padding: 1rem;
+    display: inline;
+  }
+}
+.OurHelp_tabs {
+  margin-top: 4rem;
+
+  & p {
+    font-family: "Axiforma";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 32px;
+    margin-bottom: 2rem !important;
+  }
+}
+.OurHelp_tabs_actions {
+  margin-bottom: 2rem;
+}
+.OurHelp_tabs_actions button {
+  border: none;
+  border-bottom: 2px solid black;
+  background: none;
+  margin-right: 2rem;
+  font-family: "Axiforma";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 35px;
+  color: #1c3892;
+}
+.OurHelp_btn_inactive {
+  color: lightgray !important;
+  border: none !important;
+}
+.OurHelp_card_Container {
+  position: relative;
+  margin-bottom: 5rem;
+}
+.OurHelp_card_number {
+  position: absolute;
+  top: -39px;
+  right: 30px !important;
+  z-index: -10;
+  font-family: "Axiforma";
+  font-style: normal !important;
+  font-weight: 800 !important;
+  font-size: 140px !important;
+  /* identical to box height */
+
+  color: lightgray !important;
+}
+.OurHelp_card {
+  display: grid;
+  grid-template-columns: 0.3fr 2fr;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  width: 85%;
+  margin: auto;
+  border-radius: 10px;
+}
+.OurHelp_card_content {
+  margin-left: 2rem;
+}
+.OurHelp_content {
+  position: relative;
+}
+.sketch {
+  position: absolute;
+  right: 0;
+  bottom: -70px;
+  z-index: -10;
+}

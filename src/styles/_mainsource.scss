@@ -1,0 +1,101 @@
+// variable setting
+// colors
+$color-white: #ffff;
+$color-black: #00000000;
+$text-color-grey: rgba(35, 35, 35, 0.7);
+$red-linear-gradient: linear-gradient(
+  98.06deg,
+  #f33a56 -6.61%,
+  #6e039f 152.99%
+);
+$linkedin-color: #0e76a8;
+$color-blue: #1c3892;
+$bg-light-grey: #f8f8f8;
+$separator-line: #e3edf4;
+
+$color-grey: #333333;
+$color-header-grey: #232323;
+
+$color-carousel-header: #232323;
+
+$font-color-black: #232323;
+$error-color: #de3161;
+
+$color-light: #ebeffb;
+$color-secondary: rgba(35, 35, 35, 0.7);
+// colors
+
+// --font-weight --
+$font-weight400: 400;
+$font-weight500: 500;
+$font-weight600: 600;
+$font-weight700: 700;
+// --font-weight --
+
+$accent-color: red;
+//--font-family --
+
+$font-family-san-serif: san-serif;
+
+//--font-family --
+
+//--font-size --
+$font-size20: 1.25rem;
+$font-size10: 1rem;
+$font-size12: 0.75rem;
+$font-size14: 0.875rem;
+$font-size15: 0.9375rem;
+
+//--font-size --
+
+$cursor-pointer: pointer;
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+a {
+  text-decoration: none;
+}
+$small: 300px;
+$medium: 900px;
+
+.red-gradient {
+  color: $red-linear-gradient;
+  background: $red-linear-gradient;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.button-primary {
+  background: $color-blue;
+  padding: 0.4rem 2rem;
+  border: 1px solid transparent;
+  font-weight: $font-weight500;
+  border-radius: 4px;
+}
+
+.background {
+  background: $bg-light-grey;
+  height: 100vh;
+}
+
+.button-secondary {
+  color: $color-blue;
+  background: white;
+  padding: 0.4rem 2rem;
+  border: 1px solid $color-blue;
+  font-weight: $font-weight500;
+  border-radius: 4px;
+}
+
+.button-secondary:hover {
+  color: $color-blue;
+  padding: 0.4rem 2rem;
+  border: 1px solid $color-blue;
+  font-weight: $font-weight500;
+  border-radius: 4px;
+}
+
+.text-black {
+  color: $color-black;
+}

@@ -1,0 +1,98 @@
+.Revolutions {
+  margin: 2rem 5rem;
+  margin-top: -2rem;
+  position: relative;
+
+  h2 {
+    font-family: "Axiforma";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 39px;
+    text-transform: capitalize;
+    color: rgba(35, 35, 35, 0.85);
+  }
+  h1 {
+    font-family: "Axiforma";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 72px;
+    text-transform: capitalize;
+
+    background: linear-gradient(91.69deg, #f33a56 9.13%, #6e039f 160.43%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    // text-fill-color: transparent;
+  }
+}
+.line1 {
+  position: absolute;
+  top: 20px;
+  left: -40px;
+}
+.line2 {
+  position: absolute;
+  top: -35px;
+  left: -50px;
+}
+.line3 {
+  position: absolute;
+  top: -39px;
+  left: 0;
+}
+.Revolutions_slogan {
+  color: rgba(35, 35, 35, 0.7);
+  font-size: 15px;
+  line-height: 35px;
+}
+.RevolutionsContent {
+  display: grid;
+  grid-template-columns: 0.8fr 2fr;
+  grid-gap: 2rem;
+  margin: 3rem 0;
+  align-items: center;
+  margin-bottom: 5rem;
+
+  & img {
+    height: 270px;
+    width: 300px;
+    object-fit: cover;
+    border: 4px solid #6e039f;
+    border-radius: 20px;
+  }
+  .BigPercent {
+    font-family: "Axiforma";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 110px;
+    background: linear-gradient(110.49deg, #7d92d5 7.02%, #6e039f 115.8%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  & p {
+    color: rgba(35, 35, 35, 0.7);
+    letter-spacing: 2px;
+    font-size: 17px;
+  }
+  .SmallPercent {
+    font-family: "Axiforma";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    background: linear-gradient(110.49deg, #7d92d5 7.02%, #6e039f 115.8%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+}
+.RevolutionsBoxs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+}
+.Revolution_action {
+  margin-top: 4rem;
+}

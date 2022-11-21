@@ -1,0 +1,58 @@
+.OurPotential {
+  margin: 2rem 5rem;
+  margin-top: 4rem !important;
+}
+.OurPotential_head {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+  align-items: flex-start;
+  position: relative;
+
+  & img {
+    position: absolute;
+    top: 50%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+  }
+}
+.OurPotential_head_content {
+  font-family: "Axiforma";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 33px;
+  margin-bottom: 1rem !important;
+
+  color: rgba(35, 35, 35, 0.8);
+}
+.OurPotential_head_content_r {
+  position: relative;
+  & h1 {
+    font-family: "Axiforma";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 72px;
+    color: #1c3892;
+    margin-left: 6rem;
+  }
+  & p {
+    font-family: "Axiforma";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    /* identical to box height, or 138% */
+    position: absolute;
+    color: rgba(35, 35, 35, 0.7);
+    top: 100px;
+    right: 130px;
+  }
+}
+.OurPotential_body {
+  position: relative !important;
+  margin-top: 4rem !important;
+  height: 1050px;
+  background-image: url("../../../assets/background.png") !important;
+}
